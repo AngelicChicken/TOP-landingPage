@@ -6,8 +6,8 @@ body{
 }
 
 .header, .section-1, .section-2, .section-3, .section-4, .footer{
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 .header, .section-1, .footer{
@@ -39,7 +39,7 @@ ul{
 /* section-1 */
 .section-1{
     display: flex;
-    padding: 80px;
+    padding: 80px 160px;
     gap: 16px;
     align-items: center;
 }
@@ -48,6 +48,7 @@ ul{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    flex: auto;
 }
 
 .section-1 .text{
@@ -86,11 +87,12 @@ ul{
 .section-2 .box-container{
     display: flex;
     text-align: center;
-    gap: 16px;
+    gap: 30px;
+    flex: auto;
 }
 
 .section-2 .box{
-    max-width: 150px;
+    max-width: 200px;
 }
 
 .section-2 img{
@@ -105,9 +107,10 @@ ul{
 .section-3{
     background-color: #E5E7EB;
     display: flex;
-    padding: 60px;
+    padding: 60px 160px;
     min-height: 300px;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -151,4 +154,11 @@ ul{
     border: 2px solid #F9FAF8;
     padding: 3px 10px;
     border-radius: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 20px;
 }
