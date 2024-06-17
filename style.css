@@ -122,3 +122,33 @@ ul{
     font-weight: bold;
     margin-left: auto;
 }
+
+/* .section-4 */
+.section-4{
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-4 .popup{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    padding: 30px;
+    border-radius: 10px;
+    justify-content: space-around;
+    flex: 0.3 1 auto;
+}
+
+.section-4 .popup .text{
+    color: #E5E7EB;
+}
+
+.section-4 .popup button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
