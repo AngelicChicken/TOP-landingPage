@@ -100,3 +100,25 @@ ul{
     border: 3px solid #3882F6;
     border-radius: 10px;
 }
+
+/* section-3 */
+.section-3{
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 60px;
+    min-height: 300px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-3 .quote{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.section-3 .quote-author{
+    font-weight: bold;
+    margin-left: auto;
+}
